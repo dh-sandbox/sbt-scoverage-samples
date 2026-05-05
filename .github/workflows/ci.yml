@@ -27,3 +27,4 @@ jobs:
       with:
         token: ${{ secrets.QLTY_COVERAGE_TOKEN }}
         files: target/scala-3.3.2-RC1/coverage-report/cobertura.xml
+        add-prefix: src/main/scala/
