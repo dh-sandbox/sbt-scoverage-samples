@@ -1,4 +1,6 @@
 [![coveralls-badge][]][coveralls-status]
+[![Maintainability](https://qlty.sh/gh/dh-sandbox/projects/sbt-scoverage-samples/maintainability.svg)](https://qlty.sh/gh/dh-sandbox/projects/sbt-scoverage-samples)
+[![Code Coverage](https://qlty.sh/gh/dh-sandbox/projects/sbt-scoverage-samples/coverage.svg)](https://qlty.sh/gh/dh-sandbox/projects/sbt-scoverage-samples)
 
 # scoverage samples
 
