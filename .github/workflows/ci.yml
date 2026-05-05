@@ -23,7 +23,7 @@ jobs:
       run: sbt clean coverage test coverageReport
 
     - name: Upload coverage to Qlty
-      uses: qltysh/qlty-action/coverage@v2
+      uses: qltysh/qlty-action/coverage@f071a76
       with:
         token: ${{ secrets.QLTY_COVERAGE_TOKEN }}
         files: target/scala-3.3.2-RC1/coverage-report/cobertura.xml
