@@ -1,4 +1,4 @@
-[![coveralls-badge][]][coveralls-status]
+
 [![Maintainability](https://qlty.sh/gh/dh-sandbox/projects/sbt-scoverage-samples/maintainability.svg)](https://qlty.sh/gh/dh-sandbox/projects/sbt-scoverage-samples)
 [![Code Coverage](https://qlty.sh/gh/dh-sandbox/projects/sbt-scoverage-samples/coverage.svg)](https://qlty.sh/gh/dh-sandbox/projects/sbt-scoverage-samples)
 
@@ -25,14 +25,4 @@ Afterwards you can find the report in ...
 ./target/scala-3.3.2-RC1/scoverage-report/index.html
 ```
 
-You can also upload the report to [coveralls][] by running ...
 
-```
-sbt coverage +test +coverageReport +coveralls
-```
-
-You can find the report on [coveralls][coveralls-status] ...
-
-[coveralls]: https://coveralls.io
-[coveralls-badge]: https://coveralls.io/repos/github/scoverage/sbt-scoverage-samples/badge.svg
-[coveralls-status]: https://coveralls.io/github/scoverage/sbt-scoverage-samples
